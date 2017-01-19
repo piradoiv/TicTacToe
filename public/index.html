@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+        <script src="/js/p5.min.js"></script>
+        <script src="/js/TicTacToe.js"></script>
+        <script type="text/javascript" charset="utf-8">
+            var game;
+
+            function setup() {
+                game = new TicTacToe();
+                game.setup();
+            }
+
+            function draw() {
+                game.draw();
+            }
+
+            function mouseClicked() {
+                game.mouseClicked();
+            }
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
+
